@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Duke Rhydhun — Premier South Asian Dance</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Playfair+Display:ital,wght@0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+<!-- ═══ NAV ═══ -->
+<nav id="nav">
+  <a href="#hero" class="nav-logo">
+    <div class="logo-badge">
+      <img src="images/logo.png" alt="Duke Rhydhun logo" />
+    </div>
+    DUKE RHYDHUN
+  </a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#history">History</a></li>
+    <li><a href="#team">Team</a></li>
+    <li><a href="#gallery">Gallery</a></li>
+    <li><a href="#videos">Videos</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+  <a href="#tryouts" class="nav-cta">Join Us</a>
+  <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+    <span></span><span></span><span></span>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="#about" onclick="closeMenu()">About</a>
+  <a href="#history" onclick="closeMenu()">History</a>
+  <a href="#team" onclick="closeMenu()">Team</a>
+  <a href="#gallery" onclick="closeMenu()">Gallery</a>
+  <a href="#videos" onclick="closeMenu()">Videos</a>
+  <a href="#tryouts" onclick="closeMenu()">Tryouts</a>
+  <a href="#donate" onclick="closeMenu()">Donate</a>
+  <a href="#contact" onclick="closeMenu()">Contact</a>
+</div>
+
+<!-- ═══ HERO ═══ -->
+<section id="hero">
+  <div class="hero-bg"></div>
+  <div class="hero-lines"></div>
+  <div class="particles" id="particles"></div>
+  <div class="hero-content">
+    <div class="hero-eyebrow">Duke University · DDN Circuit · Fall 2026</div>
+    <h1 class="hero-title">RHYDHUN</h1>
+    <p class="hero-sub">Duke's Premier South Asian Competitive Dance Team</p>
+    <div class="hero-btns">
+      <a href="#tryouts" class="btn btn-gold">Join Us!</a>
+      <a href="#videos" class="btn btn-primary">▶  Watch Us Perform</a>
+      <a href="#about" class="btn btn-outline">Our Story</a>
+    </div>
+  </div>
+  <div class="hero-scroll">
+    <span>Scroll</span>
+    <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 3v10M3 9l5 5 5-5" stroke="white" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </div>
+</section>
+
+<!-- ═══ ABOUT ═══ -->
+<section id="about">
+  <div class="about-grid">
+    <div class="about-text reveal">
+      <p class="section-label">Our Story</p>
+      <h2 class="section-title">What Is <span>Rhydhun?</span></h2>
+      <div class="divider"></div>
+      <p>Founded in 2015 as a Hindi-Film dance team, Rhydhun has evolved into Duke University's premier Bollywood fusion dance collective. Pronounced <em>Rih-DHUN</em> (like "fun"), we're a co-ed team that blends artistry, athleticism, and South Asian culture.</p>
+      <p>We compete on the national stage through the <strong>Desi Dance Network (DDN)</strong> circuit — a nationwide network of collegiate Bollywood-fusion teams. In 2025, we qualified for <a href="https://legends.desidancenetwork.org/" target="_blank" rel="noopener noreferrer" class="inline-link">DDN Legends</a> and finished <strong>5th place in the nation</strong>.</p>
+      <div class="legends-callout reveal">
+        <p class="legends-callout-label">What is DDN Legends?</p>
+        <p class="legends-callout-text">
+          Legends is the national championship for collegiate South Asian fusion dance — the season finale where the top teams from across the country compete on one stage for the title. Teams earn their spot through the DDN circuit all year long.
+        </p>
+        <a href="https://legends.desidancenetwork.org/" target="_blank" rel="noopener noreferrer" class="legends-callout-link">
+          Visit the Legends website ↗
+        </a>
+      </div>
+      <div class="styles-list">
+        <span class="style-chip">Bollywood</span>
+        <span class="style-chip">Bhangra</span>
+        <span class="style-chip">Kuthu</span>
+        <span class="style-chip">Hip-Hop</span>
+        <span class="style-chip">Bharatanatyam</span>
+        <span class="style-chip">Contemporary</span>
+      </div>
+    </div>
+    <div class="about-stats reveal delay-015">
+      <div class="stat-card">
+        <div class="stat-num">2015</div>
+        <div class="stat-label">Year Founded</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">5th</div>
+        <div class="stat-label">DDN Legends 2025</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">10+</div>
+        <div class="stat-label">Years of Excellence</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">DDN</div>
+        <div class="stat-label">National Circuit</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ HISTORY ═══ -->
+<section id="history">
+  <div class="history-inner">
+    <p class="section-label reveal">Season Archive</p>
+    <h2 class="section-title reveal">Our <span>Legacy</span></h2>
+    <div class="divider reveal"></div>
+    <p class="timeline-hint reveal">Scroll left to right to explore each season →</p>
+    <div class="timeline">
+
+      <div class="tl-item r12 reveal tl-item--mystery">
+        <div class="tl-visual tl-visual--mystery">
+          <span class="tl-mystery-bg" aria-hidden="true">?</span>
+          <span class="tl-visual-label">???</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R12</div>
+          <div class="tl-theme tl-theme--mystery">Theme: <span class="tl-redacted">████████</span></div>
+          <span class="tl-mystery-badge">Now Casting</span>
+          <p class="tl-mystery-text">Something big is brewing for our next season. The only way to find out? Join the team.</p>
+          <a href="#tryouts" class="tl-mystery-cta">Join Us & Find Out</a>
+        </div>
+      </div>
+
+      <div class="tl-item r11 reveal">
+        <div class="tl-visual">
+          <img src="images/avatar.JPG" alt="R11 Avatar performance" loading="lazy" />
+          <span class="tl-visual-label">Avatar</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R11</div>
+          <div class="tl-theme">Avatar</div>
+          <ul class="tl-comps mt-06">
+            <li>UGA India Night</li>
+            <li>Knoxville ki Jawani</li>
+            <li>Tufaan</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="tl-item r10 reveal">
+        <div class="tl-visual">
+          <img src="images/prisonbreak.jpg" alt="R10 Prison Break performance" loading="lazy" />
+          <span class="tl-visual-label">Prison Break</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R10</div>
+          <div class="tl-theme">Prison Break</div>
+          <a href="https://legends.desidancenetwork.org/" target="_blank" rel="noopener noreferrer" class="tl-achievement">🏆 DDN Legends · 5th in the Nation</a>
+          <ul class="tl-comps mt-06">
+            <li>UGA India Night - 1st Place</li>
+            <li>Jhoomti Shaam - 1st Place</li>
+            <li>Naach Di Cleveland - 1st Place</li>
+          </ul>
+          <p class="tl-result">Our best finish ever. We're coming for more.</p>
+        </div>
+      </div>
+
+      <div class="tl-item r9 reveal">
+        <div class="tl-visual">
+          <img src="images/killbill.avif" alt="R9 Kill Bill performance" loading="lazy" />
+          <span class="tl-visual-label">Kill Bill</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R9</div>
+          <div class="tl-theme">Kill Bill</div>
+          <ul class="tl-comps">
+            <li>Chak de C'Ville - 1st place</li>
+            <li>Jhoomti Shaam - 2nd place</li>
+            <li>Aaja Nachle</li>
+          </ul>
+          <p class="tl-result">Finished 13th in the nation</p>
+        </div>
+      </div>
+
+      <div class="tl-item r8 reveal">
+        <div class="tl-visual">
+          <img src="images/darknight.avif" alt="R8 The Dark Knight performance" loading="lazy" />
+          <span class="tl-visual-label">The Dark Knight</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R8</div>
+          <div class="tl-theme">The Dark Knight</div>
+          <ul class="tl-comps">
+            <li>Oak City Revolution - 1st place</li>
+            <li>Penn State Infusion - 2nd place</li>
+            <li>Naach Di Cleveland</li>
+            <li>Atlanta Tamasha</li>
+            <li>UGA India Night</li>
+          </ul>
+          <p class="tl-result">Finished 15th in the nation</p>
+        </div>
+      </div>
+
+      <div class="tl-item r7 reveal">
+        <div class="tl-visual">
+          <img src="https://img.youtube.com/vi/KS18J5Ia55U/hqdefault.jpg" alt="R7 Frankenstein performance" loading="lazy" />
+          <span class="tl-visual-label">Frankenstein</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R7</div>
+          <div class="tl-theme">Frankenstein</div>
+          <ul class="tl-comps">
+            <li>Aag Ki Raat - 1st place</li>
+            <li>Buckeye Mela - 3rd place</li>
+            <li>Naach Di Cleveland</li>
+            <li>A-Town Showdown</li>
+          </ul>
+          <p class="tl-result">Finished 13th in the nation</p>
+        </div>
+      </div>
+
+      <div class="tl-item r6 reveal">
+        <div class="tl-visual">
+          <img src="images/covid.png" alt="R6 COVID era performance" loading="lazy" />
+          <span class="tl-visual-label">COVID Era</span>
+        </div>
+        <div class="tl-body">
+          <div class="tl-dot"></div>
+          <div class="tl-season">R6</div>
+          <div class="tl-theme">COVID Era</div>
+          <ul class="tl-comps">
+            <li>Cybernaach (Team A) - 1st place overall</li>
+            <li>Online Bollywood, hip-hop & bhangra videos</li>
+          </ul>
+          <p class="tl-result">Kept dancing, six feet apart</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ VIDEOS ═══ -->
+<section id="videos">
+  <div class="videos-inner">
+    <p class="section-label reveal">On Stage</p>
+    <h2 class="section-title reveal">Watch Us <span>Perform</span></h2>
+    <div class="divider reveal"></div>
+    <div class="videos-grid">
+
+      <div class="video-card reveal">
+        <a href="https://www.youtube.com/watch?v=MGO97EclrbI" target="_blank" rel="noopener noreferrer" class="video-thumb-link" aria-label="Watch R11 Competition Performance on YouTube">
+          <div class="video-thumb">
+            <img src="https://img.youtube.com/vi/MGO97EclrbI/hqdefault.jpg" alt="R11 Competition Performance thumbnail" loading="lazy" />
+            <span class="video-play-overlay" aria-hidden="true">
+              <span class="play-btn">
+                <svg viewBox="0 0 68 48" width="68" height="48"><path fill="currentColor" d="M66.52 7.74a8 8 0 0 0-5.64-5.66C55.3 1 34 1 34 1s-21.3 0-26.88 1.08A8 8 0 0 0 1.48 7.74 83.5 83.5 0 0 0 0 24a83.5 83.5 0 0 0 1.48 16.26 8 8 0 0 0 5.64 5.66C12.7 47 34 47 34 47s21.3 0 26.88-1.08a8 8 0 0 0 5.64-5.66A83.5 83.5 0 0 0 68 24a83.5 83.5 0 0 0-1.48-16.26z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
+              </span>
+            </span>
+          </div>
+        </a>
+        <div class="video-meta">
+          <div class="video-season">R11 · 2026</div>
+          <div class="video-title">Avatar</div>
+        </div>
+      </div>
+
+      <div class="video-card reveal">
+        <a href="https://www.youtube.com/watch?v=FQunraNSgnY" target="_blank" rel="noopener noreferrer" class="video-thumb-link" aria-label="Watch R9 Competition Performance on YouTube">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/FQunraNSgnY/sddefault.jpg?v=6809796c" alt="R9 Competition Performance thumbnail" loading="lazy" />
+            <span class="video-play-overlay" aria-hidden="true">
+              <span class="play-btn">
+                <svg viewBox="0 0 68 48" width="68" height="48"><path fill="currentColor" d="M66.52 7.74a8 8 0 0 0-5.64-5.66C55.3 1 34 1 34 1s-21.3 0-26.88 1.08A8 8 0 0 0 1.48 7.74 83.5 83.5 0 0 0 0 24a83.5 83.5 0 0 0 1.48 16.26 8 8 0 0 0 5.64 5.66C12.7 47 34 47 34 47s21.3 0 26.88-1.08a8 8 0 0 0 5.64-5.66A83.5 83.5 0 0 0 68 24a83.5 83.5 0 0 0-1.48-16.26z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
+              </span>
+            </span>
+          </div>
+        </a>
+        <div class="video-meta">
+          <div class="video-season">R10 · 2025 · Legends</div>
+          <div class="video-title">Prison Break</div>
+        </div>
+      </div>
+
+      <div class="video-card reveal">
+        <a href="https://www.youtube.com/watch?v=lzZcHvv26jQ" target="_blank" rel="noopener noreferrer" class="video-thumb-link" aria-label="Watch R8 Competition Performance on YouTube">
+          <div class="video-thumb">
+            <img src="https://img.youtube.com/vi/lzZcHvv26jQ/hqdefault.jpg" alt="R8 Competition Performance thumbnail" loading="lazy" />
+            <span class="video-play-overlay" aria-hidden="true">
+              <span class="play-btn">
+                <svg viewBox="0 0 68 48" width="68" height="48"><path fill="currentColor" d="M66.52 7.74a8 8 0 0 0-5.64-5.66C55.3 1 34 1 34 1s-21.3 0-26.88 1.08A8 8 0 0 0 1.48 7.74 83.5 83.5 0 0 0 0 24a83.5 83.5 0 0 0 1.48 16.26 8 8 0 0 0 5.64 5.66C12.7 47 34 47 34 47s21.3 0 26.88-1.08a8 8 0 0 0 5.64-5.66A83.5 83.5 0 0 0 68 24a83.5 83.5 0 0 0-1.48-16.26z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
+              </span>
+            </span>
+          </div>
+        </a>
+        <div class="video-meta">
+          <div class="video-season">R9 · 2024</div>
+          <div class="video-title">Kill Bill</div>
+        </div>
+      </div>
+
+      <div class="video-card reveal">
+        <a href="https://www.youtube.com/watch?v=pdCU04QA9F0" target="_blank" rel="noopener noreferrer" class="video-thumb-link" aria-label="Watch R8 Competition Performance on YouTube">
+          <div class="video-thumb">
+            <img src="https://i.ytimg.com/vi/pdCU04QA9F0/maxresdefault.jpg" alt="R8 Competition Performance thumbnail" loading="lazy" />
+            <span class="video-play-overlay" aria-hidden="true">
+              <span class="play-btn">
+                <svg viewBox="0 0 68 48" width="68" height="48"><path fill="currentColor" d="M66.52 7.74a8 8 0 0 0-5.64-5.66C55.3 1 34 1 34 1s-21.3 0-26.88 1.08A8 8 0 0 0 1.48 7.74 83.5 83.5 0 0 0 0 24a83.5 83.5 0 0 0 1.48 16.26 8 8 0 0 0 5.64 5.66C12.7 47 34 47 34 47s21.3 0 26.88-1.08a8 8 0 0 0 5.64-5.66A83.5 83.5 0 0 0 68 24a83.5 83.5 0 0 0-1.48-16.26z"/><path fill="#fff" d="M45 24 27 14v20z"/></svg>
+              </span>
+            </span>
+          </div>
+        </a>
+        <div class="video-meta">
+          <div class="video-season">R8 · 2023</div>
+          <div class="video-title">The Dark Night</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TEAM / EXECS ═══ -->
+<section id="team">
+  <div class="team-inner">
+    <p class="section-label reveal">2026-2027 Leadership</p>
+    <h2 class="section-title reveal">Meet the <span>Executive Board</span></h2>
+    <div class="divider reveal"></div>
+    <div class="execs-grid">
+
+      <div class="exec-card reveal">
+        <div class="exec-photo">
+          <img src="images/yasmin.jpg" alt="Yasmin Sudarsanam" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Yasmin Sudarsanam</div>
+          <div class="exec-role">Captain</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-005">
+        <div class="exec-photo">
+          <img src="images/pramya.jpg" alt="Pramya Surapaneni" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Pramya Surapaneni</div>
+          <div class="exec-role">Captain</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-010">
+        <div class="exec-photo">
+          <img src="images/akshara.jpg" alt="Akshara Datla" />
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Akshara Datla</div>
+          <div class="exec-role">Captain</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-015">
+        <div class="exec-photo">
+          <img src="images/sehar.jpg" alt="Sehar Mahesh" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Sehar Mahesh</div>
+          <div class="exec-role">Logistics Chair</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-030">
+        <div class="exec-photo">
+          <img src="images/shri.jpg" alt="Shrivathsan Sakthisundaram" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Shrivathsan Shaktisundaram</div>
+          <div class="exec-role">Finance Chair</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-020">
+        <div class="exec-photo">
+          <img src="images/urvi.jpg" alt="Urvi Jain" />
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Urvi Jain</div>
+          <div class="exec-role">Social Chair</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-025">
+        <div class="exec-photo">
+          <img src="images/abhi.jpg" alt="Abhi Terala" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Abhi Terala</div>
+          <div class="exec-role">Social Chair</div>
+        </div>
+      </div>
+
+      <div class="exec-card reveal delay-030">
+        <div class="exec-photo">
+          <img src="images/ritika.jpg" alt="Ritika Krishnakumar" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Ritika Krishnakumar</div>
+          <div class="exec-role">Production Chair</div>
+        </div>
+      </div>
+      <div class="exec-card reveal delay-030">
+        <div class="exec-photo">
+          <img src="images/ilakkiya.jpg" alt="Ilakkiya Gnanakkumaran" /> 
+        </div>
+        <div class="exec-info">
+          <div class="exec-name">Ilakkiya Gnanakkumaran</div>
+          <div class="exec-role">Production Chair</div>
+        </div>
+      </div>
+
+  </div>
+</section>
+
+<!-- ═══ GALLERY ═══ -->
+<section id="gallery">
+  <div class="gallery-inner">
+    <p class="section-label reveal">Snapshots</p>
+    <h2 class="section-title reveal">Photo <span>Gallery</span></h2>
+    <div class="divider reveal"></div>
+    <div class="masonry reveal">
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/horizontal-r11.JPG" alt="R11 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--portrait"><img src="images/vertical-r11.JPG" alt="R11 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/r11-horizontal2.jpg" alt="R11 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--portrait"><img src="images/vertical-r10.JPG" alt="R10 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/r11-horizontal.JPG" alt="R11 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/r11-contemp.JPG" alt="R11 contemporary"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/horizontal-r10.JPG" alt="R10 performance"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--wide"><img src="images/r11-kunde.JPG" alt="R11 kunde"></div></div>
+      <div class="masonry-item masonry-item--template"><div class="masonry-placeholder masonry-placeholder--portrait"><img src="images/r9-vertical.jpg" alt="R9 performance"></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ TRYOUTS ═══ -->
+<section id="tryouts">
+  <div class="tryouts-inner">
+    <div>
+      <p class="section-label reveal">Fall 2026</p>
+      <h2 class="tryout-cta-title reveal">JOIN <span class="accent">THE</span><br>TEAM</h2>
+      <p class="tryout-body reveal">
+        Rhydhun is looking for passionate, dedicated dancers to join our squad for the upcoming DDN season. No dance experience required - just bring your energy!
+      </p>
+      <ul class="tryout-checklist reveal">
+        <li>Open to all Duke students - any major, any year</li>
+        <li>No prior dance experience needed</li>
+        <li>Compete in the national DDN circuit</li>
+        <li>Be part of an incredible dance family</li>
+        <li>Perform at campus showcases and competitions</li>
+      </ul>
+    </div>
+
+    <div class="tryout-form-cta reveal delay-020">
+      <div class="tryout-form-card">
+        <div class="tryout-form-card-icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><path d="M9 12h6M9 16h4"/></svg>
+        </div>
+        <h3 class="tryout-form-card-title">Express Your Interest</h3>
+        <p class="tryout-form-card-text">
+          Fill out our quick Google Form to let us know you want to join. We'll reach out with tryout details and dates.
+        </p>
+        <!-- Replace the href below with your Google Form link -->
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSep4mlBqlJYQWhHakSwUDktYxKeIRORsg6Mpzm6sgMnWq2x1Q/viewform" target="_blank" rel="noopener noreferrer" class="btn btn-primary tryout-form-btn">
+          Open Tryout Form →
+        </a>
+        <p class="form-note">Official tryout dates announced on Instagram <a href="https://www.instagram.com/dukerhydhun/" target="_blank" rel="noopener noreferrer">@dukerhydhun</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ DONATE ═══ -->
+<section id="donate">
+  <div class="donate-inner">
+    <p class="section-label reveal">Support Us</p>
+    <h2 class="section-title reveal">Help Us <span>Compete</span></h2>
+    <div class="divider center-divider"></div>
+    <p class="reveal">Competing nationally takes real resources — travel, costumes, set design, music production. Every dollar goes directly toward making Rhydhun's next season even bigger.</p>
+    <div class="reveal">
+      <a href="https://tickets.duke.edu/students/online/donationDetails.asp?gift_id=C2A531DB-FDB0-4C5E-9090-E8BC4DD2AC01" target="_blank" class="btn btn-gold inline-flex">
+        ❤️ Donate to Duke Rhydhun
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ CONTACT ═══ -->
+<section id="contact">
+  <div class="contact-inner">
+    <div class="contact-info">
+      <p class="section-label reveal">Get in Touch</p>
+      <h2 class="section-title reveal">Contact <span>Us</span></h2>
+      <div class="divider reveal"></div>
+      <p class="reveal">Questions about tryouts, performances, or sponsorships? Connect with us on social.</p>
+      <div class="social-icons reveal" aria-label="Duke Rhydhun social links">
+        <a href="https://www.instagram.com/dukerhydhun/" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--instagram" aria-label="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2.163c3.204 0 3.584.012 4.85.07 1.366.062 2.633.334 3.608 1.308.974.974 1.246 2.241 1.308 3.608.058 1.266.069 1.646.069 4.85s-.011 3.584-.069 4.85c-.062 1.366-.334 2.633-1.308 3.608-.974.974-2.241 1.246-3.608 1.308-1.266.058-1.646.069-4.85.069s-3.584-.011-4.85-.069c-1.366-.062-2.633-.334-3.608-1.308-.974-.974-1.246-2.241-1.308-3.608C2.175 15.747 2.163 15.367 2.163 12s.012-3.584.07-4.85c.062-1.366.334-2.633 1.308-3.608.974-.974 2.241-1.246 3.608-1.308C8.416 2.175 8.796 2.163 12 2.163zm0-2.163C8.741 0 8.332.014 7.052.072 5.775.13 4.602.402 3.635 1.37 2.668 2.337 2.396 3.51 2.338 4.788 2.28 6.068 2.266 6.477 2.266 12c0 5.523.014 5.932.072 7.212.058 1.278.33 2.451 1.297 3.418.967.967 2.14 1.239 3.418 1.297 1.28.058 1.689.072 7.212.072s5.932-.014 7.212-.072c1.278-.058 2.451-.33 3.418-1.297.967-.967 1.239-2.14 1.297-3.418.058-1.28.072-1.689.072-7.212s-.014-5.932-.072-7.212c-.058-1.278-.33-2.451-1.297-3.418-.967-.967-2.14-1.239-3.418-1.297C17.932.014 17.523 0 12 0zm0 5.838a6.162 6.162 0 1 0 0 12.324 6.162 6.162 0 0 0 0-12.324zM12 16a4 4 0 1 1 0-8 4 4 0 0 1 0 8zm6.406-11.845a1.44 1.44 0 1 0 0 2.881 1.44 1.44 0 0 0 0-2.881z"/></svg>
+        </a>
+        <a href="https://www.tiktok.com/@dukerhydhun" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--tiktok" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93v8.3c0 4.28-3.28 7.79-7.48 8.12-4.22.34-7.88-2.74-8.5-6.93-.62-4.19 2.14-8.07 6.26-8.67.42-.06.84-.08 1.27-.07V9.09c-2.35.47-4.14 2.53-4.03 5.01.11 2.48 2.16 4.44 4.64 4.43 2.48-.01 4.53-1.99 4.62-4.47V.02h3.91z"/></svg>
+        </a>
+        <a href="https://www.youtube.com/channel/UC7bOX3Rj8a6dhW6LUzaxZUA" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--youtube" aria-label="YouTube">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+        </a>
+        <a href="https://www.facebook.com/dukerhydhun/" target="_blank" rel="noopener noreferrer" class="social-icon social-icon--facebook" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+        </a>
+        <a href="mailto:dukerhydhun@gmail.com" class="social-icon social-icon--email" aria-label="Email">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4-8 5L4 8V6l8 5 8-5v2z"/></svg>
+        </a>
+      </div>
+    </div>
+
+    <div class="contact-form-side reveal delay-015">
+      <div class="tryout-form-side">
+        <div class="form-title">Send a Message 💌</div>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" placeholder="Name" />
+        </div>
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" placeholder="name@email.com" />
+        </div>
+        <div class="form-group">
+          <label>Message</label>
+          <textarea placeholder="What's on your mind?"></textarea>
+        </div>
+        <button class="btn btn-primary full-width-center" onclick="showContactAlert()">
+          Send Message
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══ FOOTER ═══ -->
+<footer>
+  <div class="footer-brand">DUKE RHYDHUN</div>
+  <div class="footer-links">
+    <a href="#about">About</a>
+    <a href="#history">History</a>
+    <a href="#team">Team</a>
+    <a href="#tryouts">Tryouts</a>
+    <a href="#donate">Donate</a>
+    <a href="#contact">Contact</a>
+  </div>
+  <div class="footer-right">© 2026 Duke Rhydhun</div>
+</footer>
+
+<!-- LIGHTBOX -->
+<div class="lightbox" id="lightbox" onclick="closeLightbox()">
+  <span class="lightbox-close">✕</span>
+  <img class="lightbox-img" id="lightboxImg" src="" alt="" />
+</div>
+
+<script src="js/main.js"></script>
+</body>
+</html>
